@@ -10,6 +10,4 @@ install: |-
 script:
   - npm test
   - npm run cov
-
-after_success:
-  - npm run upload-cov
+  - npm run upload-cov ｜ true
