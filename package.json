@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "cov": "jest --coverage && coveralls < coverage/lcov.info",
+    "upload-cov": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/simeonlamhk01/test-coverage#readme",
   "dependencies": {
     "jest": "^26.4.2"
+  },
+  "devDependencies": {
+    "coveralls": "^3.1.0"
   }
 }
