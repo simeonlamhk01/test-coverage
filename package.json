@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "cov": "jest --coverage && coveralls < coverage/lcov.info "
+    "cov": "jest --coverage",
+    "upload": "coveralls < coverage/lcov.info | true"
   },
   "repository": {
     "type": "git",
