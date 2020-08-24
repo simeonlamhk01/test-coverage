@@ -1,0 +1,22 @@
+{
+  "name": "test-coverage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simeonlamhk01/test-coverage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simeonlamhk01/test-coverage/issues"
+  },
+  "homepage": "https://github.com/simeonlamhk01/test-coverage#readme",
+  "dependencies": {
+    "jest": "^26.4.2"
+  }
+}
